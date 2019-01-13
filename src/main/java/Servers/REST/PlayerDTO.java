@@ -38,6 +38,6 @@ public class PlayerDTO {
 
 
     @Override
-    public String toString() {return "id: " + playerID + " player name: " + playerName + "player password: " + playerPass;}
+    public String toString() {return "player id: " + playerID + "player name: " + playerName + " player password: " + playerPass;}
 
 }

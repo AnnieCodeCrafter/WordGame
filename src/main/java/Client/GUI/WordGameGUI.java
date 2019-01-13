@@ -1,6 +1,9 @@
 package Client.GUI;
 
 import Client.REST.RestClient;
+import Client.Websockets.ActiveClient;
+import Client.Websockets.ActiveClientEndpoint;
+import Client.Websockets.ClientLauncher;
 import Models.User;
 import Servers.REST.PlayerDTO;
 import javafx.application.Application;
@@ -26,6 +29,7 @@ public class WordGameGUI extends Application {
 
     private  TextField textFieldloginUsername;
     private PasswordField passwordFieldLogin;
+
 
 
     public void start(Stage primaryStage) throws Exception {
@@ -87,16 +91,6 @@ public class WordGameGUI extends Application {
             }
         });
         grid.add(buttonSignup, 1, 3);
-
-        //textfield signup
-        TextField textFieldUserName = new TextField();
-        grid.add(textFieldUserName, 1, 1);
-
-
-
-        PasswordField passwordSignup = new PasswordField();
-        grid.add(passwordSignup, 1, 2);
-
 
         //Lobby
         //lobby title
@@ -160,8 +154,14 @@ public class WordGameGUI extends Application {
         User user = new User(loginUserText, loginPassText);
         PlayerDTO player = user.createDTO();
 
+        System.out.println(player.getPlayerName() + " " + player.getPlayerPass());
+
         if(client.loginPlayer(player)) {
-            //git on with it
+            System.out.println("yo");
+        }
+
+        else {
+            System.out.println("You are not logged in.");
         }
 
 

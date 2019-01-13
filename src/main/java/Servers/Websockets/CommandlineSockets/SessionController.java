@@ -1,7 +1,7 @@
 //package Servers.Websockets.CommandlineSockets;
 //
 //import Servers.Websockets.ServerStates.ServerIntroState;
-//import Servers.Websockets.ServerStates.ServerState;
+//import Servers.Websockets.ServerStates.Interfaces.ServerState;
 //
 //import javax.websocket.Session;
 //import java.util.ArrayList;

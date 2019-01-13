@@ -1,16 +1,19 @@
 package Servers.Websockets.ServerStates;
 
+import Servers.Websockets.ServerStates.Interfaces.SendMessages;
+import Servers.Websockets.ServerStates.Interfaces.ServerState;
+
 import javax.websocket.*;
 import javax.websocket.server.ServerEndpoint;
 import java.io.IOException;
 import java.util.Map;
 
 @ServerEndpoint("/endpoint")
-public class WebsocketsCommunicatorService {
+public class WebsocketsCommunicatorService implements SendMessages {
+
+    private static ServerState ServerCurrentState = null;
 
 
-    // All sessions
-    // private static final List<Session> sessions = new ArrayList<>();
     LoginSessionController sessions = new LoginSessionController(this);
 
     public void sendMap(Map<Session, String> messages){
@@ -27,12 +30,20 @@ public class WebsocketsCommunicatorService {
         }
     }
 
+    @Override
+    public void ChangeStateTo(ServerState newState) {
+        ServerCurrentState = newState;
+    }
+
 
     //When it connects
     @OnOpen
     public void onConnect(Session session) {
         System.out.println("onOpen::" + session.getId());
-        sessions.add(session);
+        if (ServerCurrentState == null){
+            ServerCurrentState = new LoginSessionController(this);
+        }
+        ServerCurrentState.add(session);
 
     }
 

@@ -1,7 +1,9 @@
 package Servers.REST;
 
 
-import Database.IPreparedStatements;
+import Client.Websockets.ActiveClient;
+import Client.Websockets.ActiveClientEndpoint;
+import Client.Websockets.ClientLauncher;
 import Database.PreparedStatements;
 import Models.User;
 
@@ -89,14 +91,21 @@ public class restService {
         // Check request
         if (playerRequest == null) {
             // Client error 400 - Bad Request
+            System.out.println("No player given");
             return Response.status(400).entity(RestResponseHelper.getErrorResponseString()).build();
+
         }
         // see if player exists
 
+        System.out.println(playerRequest.getPlayerName() + " " + playerRequest.getPlayerPass());
+
         if(!statements.CheckUser(playerRequest.getPlayerName(), playerRequest.getPlayerPass())) {
+            System.out.println("Wrong login");
             return Response.status(400).entity(RestResponseHelper.getErrorResponseString()).build();
         }
 
+
+        ClientLauncher.startClient(ActiveClientEndpoint.class);
 
         return Response.status(200).entity(RestResponseHelper.getSuccessResponse(true)).build();
     }

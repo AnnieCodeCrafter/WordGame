@@ -1,4 +1,4 @@
-package Servers.Websockets.ServerStates;
+package Servers.Websockets.ServerStates.Interfaces;
 
 import javax.websocket.Session;
 

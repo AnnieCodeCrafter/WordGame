@@ -85,6 +85,7 @@ public class PreparedStatements implements IPreparedStatements {
 
     @Override
     public void addUser(String username, String password) {
+        Conn = con.getConnection();
         try {
             String insertQueryStatement = "INSERT  INTO  player (uname, pword)  VALUES  (?,?)";
 
@@ -103,6 +104,7 @@ public class PreparedStatements implements IPreparedStatements {
     }
 
     public boolean CheckUser(String username, String password) {
+        Conn = con.getConnection();
         User user = new User();
         List<User> userList = new ArrayList<>();
         boolean playerExists = false;
@@ -112,6 +114,7 @@ public class PreparedStatements implements IPreparedStatements {
             PrepareStat = Conn.prepareStatement(getQueryStatement);
             PrepareStat.setString(1, username);
             PrepareStat.setString(2, password);
+
 
             ResultSet rs = PrepareStat.executeQuery();
 
