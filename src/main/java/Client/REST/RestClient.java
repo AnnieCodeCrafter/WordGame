@@ -42,6 +42,21 @@ public class RestClient {
 
     }
 
+    public boolean loginPlayer(PlayerDTO playerRequest) {
+        String queryGet = "/player/login";
+        RestResponse response = executeQueryPost(playerRequest, queryGet);
+        PlayerDTO dtp =  response.getPlayers().get(0);
+        if(dtp != null) {
+            return true;
+        }
+
+        else {
+            return false;
+        }
+    }
+
+
+
     private RestResponse executeQueryGet(String queryGet) {
 
         // Build the query for the REST service

@@ -2,6 +2,7 @@ package Servers.REST;
 
 
 import Database.IPreparedStatements;
+import Database.PreparedStatements;
 import Models.User;
 
 import javax.ws.rs.*;
@@ -12,7 +13,7 @@ import java.util.List;
 @Path("/authentication")
 public class restService {
 
-    IPreparedStatements statements;
+   PreparedStatements statements = new PreparedStatements();
 
 
     @GET

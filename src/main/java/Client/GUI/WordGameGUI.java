@@ -1,5 +1,8 @@
 package Client.GUI;
 
+import Client.REST.RestClient;
+import Models.User;
+import Servers.REST.PlayerDTO;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -153,11 +156,26 @@ public class WordGameGUI extends Application {
         String loginUserText = textFieldloginUsername.getText();
         String loginPassText = passwordFieldLogin.getText();
         System.out.println(loginUserText + " " + loginPassText);
+        RestClient client = new RestClient();
+        User user = new User(loginUserText, loginPassText);
+        PlayerDTO player = user.createDTO();
+
+        if(client.loginPlayer(player)) {
+            //git on with it
+        }
+
+
+
 
     }
 
     private void SignupButtonEvent(ActionEvent event) throws InvocationTargetException {
         System.out.println("dumbass");
+        String signupUserText = textFieldloginUsername.getText();
+        String signupPassText = textFieldloginUsername.getText();
+
+        RestClient client  = new RestClient();
+
     }
 
 }
