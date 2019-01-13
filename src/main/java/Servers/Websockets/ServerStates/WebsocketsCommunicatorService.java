@@ -1,19 +1,17 @@
-package Servers.Websockets;
+package Servers.Websockets.ServerStates;
 
 import javax.websocket.*;
 import javax.websocket.server.ServerEndpoint;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 @ServerEndpoint("/endpoint")
-public class WebsocketsCommService {
+public class WebsocketsCommunicatorService {
+
 
     // All sessions
-   // private static final List<Session> sessions = new ArrayList<>();
-    SessionController sessions = new SessionController(this);
+    // private static final List<Session> sessions = new ArrayList<>();
+    LoginSessionController sessions = new LoginSessionController(this);
 
     public void sendMap(Map<Session, String> messages){
         System.out.println(String.format("Going to send out to %d clients",messages.size()));

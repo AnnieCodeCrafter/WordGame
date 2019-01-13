@@ -1,4 +1,4 @@
-package Servers.Websockets;
+package Servers.Websockets.ServerStates;
 
 import javax.websocket.Session;
 import java.util.ArrayList;
@@ -6,14 +6,12 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class SessionController {
+public class LoginSessionController {
 
     private static List<Session> sessions = new ArrayList<>();
+    private WebsocketsCommunicatorService SenderMesssages;
 
-    private WebsocketsCommService SenderMesssages;
-
-
-    public SessionController(WebsocketsCommService messageSender) {
+    public LoginSessionController(WebsocketsCommunicatorService messageSender) {
         SenderMesssages = messageSender;
     }
 

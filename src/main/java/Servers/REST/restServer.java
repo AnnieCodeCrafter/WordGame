@@ -9,7 +9,11 @@ import org.glassfish.jersey.servlet.ServletContainer;
 public class restServer {
 
     public static void main(String[] args) throws Exception {
+        startRest();
 
+    }
+
+    public static void startRest() {
         ServletContextHandler context = new
                 ServletContextHandler(ServletContextHandler.SESSIONS);
         context.setContextPath("/");

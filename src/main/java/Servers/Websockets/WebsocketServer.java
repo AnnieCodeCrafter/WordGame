@@ -1,6 +1,8 @@
 package Servers.Websockets;
 
 import javax.websocket.server.ServerContainer;
+
+import Servers.Websockets.ServerStates.WebsocketsCommunicatorService;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.server.ServerConnector;
 import org.eclipse.jetty.servlet.ServletContextHandler;
@@ -16,8 +18,6 @@ public class WebsocketServer {
 
     // Start the web socket server
    public static void startWebSocketServer() {
-
-
 
         Server webSocketServer = new Server();
         ServerConnector connector = new ServerConnector(webSocketServer);
@@ -35,7 +35,7 @@ public class WebsocketServer {
             ServerContainer wscontainer = WebSocketServerContainerInitializer.configureContext(webSocketContext);
 
             // Add WebSocket endpoint to javax.websocket layer
-            wscontainer.addEndpoint(WebsocketsCommService.class);
+            wscontainer.addEndpoint(WebsocketsCommunicatorService.class);
 
             webSocketServer.start();
             //server.dump(System.err);
