@@ -2,17 +2,19 @@ package Servers.REST;
 
 public class PlayerDTO {
 
-    private String playerName;
-    private String playerPass;
-    private int playerID;
+    private String name = "";
+    private String password = "";
+    private int playerID = 0;
+    private String dummy = "dummy";
 
     public PlayerDTO() {
 
     }
 
-    public PlayerDTO(String playerName, String playerPass, int playerID) {
-        this.playerName = playerName;
-        this.playerPass = playerPass;
+    public PlayerDTO(String name, String playerPass, int playerID) {
+
+        this.name = name;
+        this.password = playerPass;
         this.playerID = playerID;
     }
 
@@ -24,20 +26,20 @@ public class PlayerDTO {
         this.playerID = playerID;
     }
 
-    public String getPlayerName() {
-        return playerName;
+    public String getName() {
+        return name;
     }
 
-    public void setPlayerName(String playerName) {
-        this.playerName = playerName;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getPlayerPass() {
-        return playerPass;
+        return password;
     }
 
 
     @Override
-    public String toString() {return "player id: " + playerID + "player name: " + playerName + " player password: " + playerPass;}
+    public String toString() {return "player id: " + playerID + ", player name: " + name + ", player password: " + password;}
 
 }

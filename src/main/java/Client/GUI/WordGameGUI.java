@@ -1,9 +1,6 @@
 package Client.GUI;
 
 import Client.REST.RestClient;
-import Client.Websockets.ActiveClient;
-import Client.Websockets.ActiveClientEndpoint;
-import Client.Websockets.ClientLauncher;
 import Models.User;
 import Servers.REST.PlayerDTO;
 import javafx.application.Application;
@@ -154,7 +151,7 @@ public class WordGameGUI extends Application {
         User user = new User(loginUserText, loginPassText);
         PlayerDTO player = user.createDTO();
 
-        System.out.println(player.getPlayerName() + " " + player.getPlayerPass());
+        System.out.println(player.getName() + " " + player.getPlayerPass());
 
         if(client.loginPlayer(player)) {
             System.out.println("yo");
