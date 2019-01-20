@@ -23,7 +23,7 @@ public class restServer {
         jerseyServlet.setInitOrder(0);
         // Tells the Jersey Servlet which REST service/class to load.
         jerseyServlet.setInitParameter("jersey.config.server.provider.classnames",
-                restService.class.getCanonicalName());
+                RestEndpoints.class.getCanonicalName());
 
         try {
             jettyServer.start();

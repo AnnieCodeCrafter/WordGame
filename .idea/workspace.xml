@@ -2,10 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5bcb355-d376-4ad3-ac4a-11106318bb3d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Client/REST/Websockets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Client/GUI/WordGameGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Client/GUI/WordGameGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Client/Websockets/ActiveClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Client/Websockets/ActiveClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Client/Websockets/ActiveClientEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Client/Websockets/ActiveClientEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Models/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Servers/REST/PlayerDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servers/REST/PlayerDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Servers/REST/restService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servers/REST/restService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Servers/REST/restServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servers/REST/restServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Servers/REST/restService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servers/REST/RestEndpoints.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Servers/Websockets/ServerStates/LoginSessionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servers/Websockets/ServerStates/LoginSessionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Servers/Websockets/ServerStates/WebsocketsCommunicatorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Servers/Websockets/ServerStates/WebsocketsCommunicatorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Client/REST/RestClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Client/REST/RestClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Client/GUI/WordGameGUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Client/GUI/WordGameGUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Client/GUI/WordGameGUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Client/GUI/WordGameGUI$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Client/GUI/WordGameGUI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Client/GUI/WordGameGUI$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Client/GUI/WordGameGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Client/GUI/WordGameGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Client/Websockets/ActiveClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Client/Websockets/ActiveClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Client/Websockets/ActiveClientEndpoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Client/Websockets/ActiveClientEndpoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Models/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Servers/REST/PlayerDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Servers/REST/PlayerDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Servers/REST/restServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Servers/REST/restServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Servers/REST/restService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Client/REST/RestClientTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Client/REST/RestClientTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,11 +55,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Client/Websockets/ClientLauncher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Client/REST/RestClient.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Servers/Websockets/ServerStates/WebsocketsCommunicatorService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="45" column="42" lean-forward="true" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+            <state relative-caret-position="148">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,67 +80,81 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Servers/Websockets/ServerStates/Interfaces/SendMessages.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Servers/REST/PlayerDTO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Servers/Websockets/WebsocketServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-34">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Servers/REST/restService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Servers/REST/RestResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="e#433#434#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Servers/Websockets/CommandlineSockets/SessionController.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Client/REST/Websockets.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Client/Websockets/ActiveClientEndpoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Client/Websockets/ActiveClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1540#1541#0" expanded="true" />
+                <element signature="e#1565#1566#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/Thread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="747" selection-start-line="747" selection-end-line="747" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Servers/Websockets/ServerStates/LoginSessionManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="79" selection-start-line="79" selection-end-line="79" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Servers/Websockets/ServerStates/ServerIntroState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -117,32 +162,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Servers/REST/RestResponseHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
+            <state relative-caret-position="435">
               <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Client/REST/RestClientTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Servers/Websockets/CommandlineSockets/WebsocketsCommService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -172,8 +196,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Client/Websockets/WebsocketClientLauncher.java" />
         <option value="$PROJECT_DIR$/src/main/java/Client/Websockets/ClientEndpoint.java" />
         <option value="$PROJECT_DIR$/src/main/java/Client/Websockets/ClientLauncher.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Client/Websockets/ActiveClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Client/Websockets/ActiveClientEndpoint.java" />
         <option value="$PROJECT_DIR$/src/main/java/Database/MysqlCon.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/GUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/GUI/WordgameGUI.java" />
@@ -183,7 +205,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Servers/REST/RestResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/Database/IPreparedStatements.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/Client/REST/RestClientTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Servers/REST/RestResponseHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/Client/REST/RestClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/Servers/REST/restServer.java" />
@@ -199,14 +220,21 @@
         <option value="$PROJECT_DIR$/src/main/java/Algorithm/Palindrome.java" />
         <option value="$PROJECT_DIR$/src/main/java/Servers/Websockets/ServerStates/Interfaces/SendMessages.java" />
         <option value="$PROJECT_DIR$/src/main/java/Servers/Websockets/ServerStates/ServerIntroState.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Servers/Websockets/ServerStates/WebsocketsCommunicatorService.java" />
         <option value="$PROJECT_DIR$/src/main/java/Servers/Websockets/ServerStates/LoginSessionController.java" />
         <option value="$PROJECT_DIR$/src/test/java/Client/REST/PreparedStatementsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Database/PreparedStatements.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Models/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Client/GUI/WordGameGUI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Servers/REST/restService.java" />
         <option value="$PROJECT_DIR$/src/main/java/Servers/REST/PlayerDTO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Servers/REST/restService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Servers/REST/RestEndpoints.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Client/GUI/GUIController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Client/GUI/WordGameGUI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Servers/Websockets/ServerStates/WebsocketsCommunicatorService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Models/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Servers/Websockets/ServerStates/LoginSessionManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Client/REST/RestClientTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Client/Websockets/ActiveClientEndpoint.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Client/REST/Websockets.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Client/Websockets/ActiveClient.java" />
       </list>
     </option>
   </component>
@@ -337,16 +365,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Servers" type="462c0819:PsiDirectoryNode" />
               <item name="Websockets" type="462c0819:PsiDirectoryNode" />
-              <item name="CommandlineSockets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WordGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WordGame2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Servers" type="462c0819:PsiDirectoryNode" />
-              <item name="Websockets" type="462c0819:PsiDirectoryNode" />
               <item name="ServerStates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -391,7 +409,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547669774315" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548022878965" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../WebsocketsStudy/websockets_study" />
@@ -422,14 +440,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WordGameGUI">
-    <configuration name="WebsocketServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Servers.Websockets.WebsocketServer" />
+  <component name="RunManager" selected="JUnit.Websockets">
+    <configuration name="ClientLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client.Websockets.ClientLauncher" />
       <module name="WordGame2" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Servers.Websockets.*" />
+          <option name="PATTERN" value="Client.Websockets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -437,12 +455,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordGameGUI" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Client.GUI.WordGameGUI" />
+    <configuration name="WebsocketServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Servers.Websockets.WebsocketServer" />
       <module name="WordGame2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Client.GUI.*" />
+          <option name="PATTERN" value="Servers.Websockets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -470,7 +489,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreparedStatementsTest.checkPlayer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Websockets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WordGame2" />
       <extension name="coverage">
         <pattern>
@@ -479,15 +498,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Client.REST" />
-      <option name="MAIN_CLASS_NAME" value="Client.REST.PreparedStatementsTest" />
-      <option name="METHOD_NAME" value="checkPlayer" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="Client.REST.Websockets" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Websockets.testSend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WordGame2" />
       <extension name="coverage">
         <pattern>
@@ -496,7 +513,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Client.REST" />
-      <option name="MAIN_CLASS_NAME" value="Client.REST.RestClientTest" />
+      <option name="MAIN_CLASS_NAME" value="Client.REST.Websockets" />
+      <option name="METHOD_NAME" value="testSend" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -518,18 +537,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.restServer" />
-      <item itemvalue="Application.WordGameGUI" />
       <item itemvalue="Application.WebsocketServer" />
-      <item itemvalue="JUnit.RestClientTest" />
-      <item itemvalue="JUnit.PreparedStatementsTest.checkPlayer" />
+      <item itemvalue="Application.ClientLauncher" />
+      <item itemvalue="JUnit.Websockets.testSend" />
+      <item itemvalue="JUnit.Websockets" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WordGameGUI" />
-        <item itemvalue="Application.restServer" />
+        <item itemvalue="JUnit.Websockets" />
+        <item itemvalue="Application.ClientLauncher" />
         <item itemvalue="Application.WebsocketServer" />
-        <item itemvalue="JUnit.PreparedStatementsTest.checkPlayer" />
-        <item itemvalue="JUnit.RestClientTest" />
+        <item itemvalue="JUnit.Websockets.testSend" />
+        <item itemvalue="Application.restServer" />
       </list>
     </recent_temporary>
   </component>
@@ -559,7 +578,11 @@
       <workItem from="1547420188031" duration="296000" />
       <workItem from="1547452650360" duration="3415000" />
       <workItem from="1547479764382" duration="74000" />
-      <workItem from="1547627074394" duration="2091000" />
+      <workItem from="1547627074394" duration="2746000" />
+      <workItem from="1547732697647" duration="5663000" />
+      <workItem from="1547823341626" duration="1127000" />
+      <workItem from="1547893471323" duration="5031000" />
+      <workItem from="1547979183576" duration="8248000" />
     </task>
     <task id="LOCAL-00001" summary="REST works, adding signup/login to gui">
       <created>1547409179836</created>
@@ -582,43 +605,50 @@
       <option name="project" value="LOCAL" />
       <updated>1547420209293</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="PlayerDTO">
+      <created>1547670036199</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1547670036199</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RestClientTest - 2019.01.13 at 23h 10m 03s.xml">
-      <configuration name="RestClientTest" configurationId="JUnit" />
+    <history-entry file="Websockets_testSend - 2019.01.20 at 22h 58m 38s.xml">
+      <configuration name="Websockets.testSend" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PreparedStatementsTest_checkPlayer - 2019.01.13 at 23h 20m 48s.xml">
-      <configuration name="PreparedStatementsTest.checkPlayer" configurationId="JUnit" />
+    <history-entry file="Websockets_testSend - 2019.01.20 at 22h 59m 31s.xml">
+      <configuration name="Websockets.testSend" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PreparedStatementsTest_checkPlayer - 2019.01.13 at 23h 21m 07s.xml">
-      <configuration name="PreparedStatementsTest.checkPlayer" configurationId="JUnit" />
+    <history-entry file="Websockets_testSend - 2019.01.20 at 23h 00m 15s.xml">
+      <configuration name="Websockets.testSend" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PreparedStatementsTest_checkPlayer - 2019.01.13 at 23h 22m 07s.xml">
-      <configuration name="PreparedStatementsTest.checkPlayer" configurationId="JUnit" />
+    <history-entry file="Websockets_testSend - 2019.01.20 at 23h 00m 25s.xml">
+      <configuration name="Websockets.testSend" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PreparedStatementsTest_checkPlayer - 2019.01.13 at 23h 22m 52s.xml">
-      <configuration name="PreparedStatementsTest.checkPlayer" configurationId="JUnit" />
+    <history-entry file="Websockets_testSend - 2019.01.20 at 23h 02m 18s.xml">
+      <configuration name="Websockets.testSend" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PreparedStatementsTest_checkPlayer - 2019.01.13 at 23h 25m 06s.xml">
-      <configuration name="PreparedStatementsTest.checkPlayer" configurationId="JUnit" />
+    <history-entry file="Websockets_testSend - 2019.01.20 at 23h 10m 24s.xml">
+      <configuration name="Websockets.testSend" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PreparedStatementsTest_checkPlayer - 2019.01.13 at 23h 25m 17s.xml">
-      <configuration name="PreparedStatementsTest.checkPlayer" configurationId="JUnit" />
+    <history-entry file="Websockets_testSend - 2019.01.20 at 23h 10m 59s.xml">
+      <configuration name="Websockets.testSend" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PreparedStatementsTest_checkPlayer - 2019.01.13 at 23h 25m 20s.xml">
-      <configuration name="PreparedStatementsTest.checkPlayer" configurationId="JUnit" />
+    <history-entry file="Websockets_testSend - 2019.01.20 at 23h 12m 22s.xml">
+      <configuration name="Websockets.testSend" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PreparedStatementsTest_checkPlayer - 2019.01.13 at 23h 25m 24s.xml">
-      <configuration name="PreparedStatementsTest.checkPlayer" configurationId="JUnit" />
+    <history-entry file="Websockets - 2019.01.20 at 23h 16m 06s.xml">
+      <configuration name="Websockets" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PreparedStatementsTest_checkPlayer - 2019.01.13 at 23h 26m 03s.xml">
-      <configuration name="PreparedStatementsTest.checkPlayer" configurationId="JUnit" />
+    <history-entry file="Websockets_testSend - 2019.01.20 at 23h 16m 36s.xml">
+      <configuration name="Websockets.testSend" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79002000" />
+    <option name="totallyTimeSpent" value="99726000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -632,8 +662,8 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49825174" visible="true" weight="0.26285347" />
+      <window_info id="Structure" order="1" sideWeight="0.50174826" side_tool="true" weight="0.26285347" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -641,8 +671,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23014805" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.04037685" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23014805" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.33512786" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32974428" />
@@ -673,7 +703,8 @@
     <MESSAGE value="REST works, adding signup/login to gui" />
     <MESSAGE value="fixing websocket sessions" />
     <MESSAGE value="Rest does not work, server drops password field" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rest does not work, server drops password field" />
+    <MESSAGE value="PlayerDTO" />
+    <option name="LAST_COMMIT_MESSAGE" value="PlayerDTO" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -683,12 +714,6 @@
           <line>10</line>
           <properties />
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Client/Websockets/ActiveClientEndpoint.java</url>
-          <line>36</line>
-          <properties />
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Client/REST/RestClient.java</url>
@@ -721,62 +746,63 @@
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Client/GUI/WordGameGUI.java</url>
-          <line>151</line>
-          <properties />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Database/PreparedStatements.java</url>
-          <line>107</line>
-          <properties />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Servers/REST/restService.java</url>
-          <line>100</line>
+          <url>file://$PROJECT_DIR$/src/main/java/Servers/REST/RestEndpoints.java</url>
+          <line>121</line>
           <properties />
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Client/REST/RestClientTest.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Servers/Websockets/ServerStates/WebsocketsCommunicatorService.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Servers/REST/RestEndpoints.java</url>
+          <line>127</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Servers/Websockets/ServerStates/WebsocketsCommunicatorService.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Servers/Websockets/ServerStates/LoginSessionManager.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Client/Websockets/ActiveClientEndpoint.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/Client/REST/Websockets.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Servers/Websockets/ServerStates/WebsocketsCommunicatorService.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="747" selection-start-line="747" selection-end-line="747" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/javax-websocket-client-impl/9.4.7.v20170914/javax-websocket-client-impl-9.4.7.v20170914.jar!/org/eclipse/jetty/websocket/jsr356/endpoints/JsrAnnotatedEventDriver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="261" selection-start-line="261" selection-end-line="261" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/javax-websocket-client-impl/9.4.7.v20170914/javax-websocket-client-impl-9.4.7.v20170914.jar!/org/eclipse/jetty/websocket/jsr356/annotations/JsrEvents.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="120" selection-start-line="120" selection-end-line="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/javax-websocket-client-impl/9.4.7.v20170914/javax-websocket-client-impl-9.4.7.v20170914.jar!/org/eclipse/jetty/websocket/jsr356/annotations/OnMessageTextCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/websocket-common/9.4.7.v20170914/websocket-common-9.4.7.v20170914.jar!/org/eclipse/jetty/websocket/common/events/annotated/CallableMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Client/Shared.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -830,55 +856,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Client/Websockets/ActiveClientEndpoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="31" column="32" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Servers/Websockets/ServerStates/ServerStateGamePlay.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Servers/Websockets/ServerStates/Interfaces/ServerState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Servers/Websockets/ServerStates/ServerIntroState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Servers/Shared.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Client/REST/PreparedStatementsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -891,16 +873,6 @@
           <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="e#1120#1121#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Client/Websockets/ClientLauncher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -973,78 +945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Servers/REST/restServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Models/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-          <folding>
-            <element signature="e#1420#1421#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Client/Websockets/ActiveClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="51" column="9" lean-forward="true" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Database/PreparedStatements.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Servers/Websockets/ServerStates/LoginSessionController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Client/GUI/WordGameGUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2363">
-          <caret line="155" column="40" selection-start-line="155" selection-start-column="40" selection-end-line="155" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Servers/Websockets/ServerStates/WebsocketsCommunicatorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1077#1078#0" expanded="true" />
-            <element signature="e#1122#1123#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Servers/Websockets/ServerStates/Interfaces/SendMessages.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1072,16 +972,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Servers/REST/RestResponseHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Servers/Websockets/CommandlineSockets/WebsocketsCommService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1089,47 +979,263 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Client/REST/RestClientTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Client/REST/PreparedStatementsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="187">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/javax-websocket-client-impl/9.4.7.v20170914/javax-websocket-client-impl-9.4.7.v20170914.jar!/org/eclipse/jetty/websocket/jsr356/annotations/OnOpenCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/glassfish/jersey/core/jersey-server/2.7/jersey-server-2.7.jar!/org/glassfish/jersey/server/model/internal/AbstractJavaResourceMethodDispatcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#5327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Database/PreparedStatements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/javax-websocket-client-impl/9.4.7.v20170914/javax-websocket-client-impl-9.4.7.v20170914.jar!/org/eclipse/jetty/websocket/jsr356/JettyClientContainerProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#1374#1375#0" expanded="true" />
+            <element signature="e#1415#1416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Servers/REST/RestEndpoints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="127" selection-start-line="127" selection-end-line="127" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Servers/Websockets/ServerStates/Interfaces/ServerState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Client/GUI/GUIController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Client/REST/RestClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Client/GUI/WordGameGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="147" column="7" selection-start-line="147" selection-start-column="7" selection-end-line="147" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="73" column="35" selection-start-line="73" selection-start-column="35" selection-end-line="73" selection-end-column="35" />
+          <folding>
+            <element signature="e#1388#1389#0" expanded="true" />
+            <element signature="e#1429#1430#0" expanded="true" />
+            <element signature="e#1363#1364#0" expanded="true" />
+            <element signature="e#1420#1421#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Servers/Websockets/WebsocketServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="293">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Servers/REST/restService.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="125" lean-forward="true" selection-start-line="125" selection-end-line="125" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="173">
+          <caret line="203" selection-start-line="203" selection-end-line="203" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/EachTestNotifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Servers/REST/PlayerDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="333">
+          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Client/REST/RestClient.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/eclipse/jetty/websocket/websocket-common/9.4.7.v20170914/websocket-common-9.4.7.v20170914.jar!/org/eclipse/jetty/websocket/common/events/annotated/CallableMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="45" column="42" lean-forward="true" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+        <state relative-caret-position="145">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Client/REST/RestClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Servers/REST/restServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Servers/REST/RestResponseHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Servers/Websockets/ServerStates/ServerIntroState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="747" selection-start-line="747" selection-end-line="747" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Client/Websockets/ClientLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Client/REST/Websockets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Client/Websockets/ActiveClientEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Client/Websockets/ActiveClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1540#1541#0" expanded="true" />
+            <element signature="e#1565#1566#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Servers/Websockets/ServerStates/LoginSessionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Servers/Websockets/ServerStates/WebsocketsCommunicatorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

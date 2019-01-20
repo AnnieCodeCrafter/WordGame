@@ -15,18 +15,25 @@ import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
+import org.aopalliance.intercept.Invocation;
 
+import javax.xml.soap.Text;
 import java.lang.reflect.InvocationTargetException;
 
 public class WordGameGUI extends Application {
 
-    private Label lobbyTitleLabel;
-    private Label loginLabel;
-    private Label signupLabel;
+   private Label lobbyTitleLabel;
+
 
     private  TextField textFieldloginUsername;
     private PasswordField passwordFieldLogin;
 
+    private Label playerAmount;
+    private Label playerIsConnected;
+
+    private Button buttonLogin;
+    private Button buttonSignup;
+    private Button buttonEnterRandom;
 
 
     public void start(Stage primaryStage) throws Exception {
@@ -37,15 +44,8 @@ public class WordGameGUI extends Application {
         grid.setPadding(new Insets(25, 25, 25, 25));
 
 
-        //Login
-        //login + signup Labels
-        loginLabel = new Label("Login");
-        signupLabel = new Label("Sign up");
-        grid.add(loginLabel, 0, 0);
-        grid.add(signupLabel, 1, 0);
-
         //Login button
-        Button buttonLogin = new Button();
+        buttonLogin = new Button();
         buttonLogin.setDisable(false);
         buttonLogin.setText("Log In");
         buttonLogin.setOnAction(new EventHandler<ActionEvent>() {
@@ -72,8 +72,9 @@ public class WordGameGUI extends Application {
         passwordFieldLogin = new PasswordField();
         grid.add(passwordFieldLogin, 0, 2);
 
+
         //Signup button
-        Button buttonSignup = new Button();
+        buttonSignup = new Button();
         buttonSignup.setText("Sign Up");
         buttonSignup.setDisable(false);
         buttonSignup.setOnAction(new EventHandler<ActionEvent>() {
@@ -95,7 +96,7 @@ public class WordGameGUI extends Application {
         grid.add(lobbyTitleLabel, 0, 4);
 
         //button enter random lobby
-        Button buttonEnterRandom = new Button();
+        buttonEnterRandom = new Button();
         buttonEnterRandom.setDisable(true);
         buttonEnterRandom.setText("Random Lobby");
         buttonEnterRandom.setOnAction(new EventHandler<ActionEvent>() {
@@ -113,6 +114,11 @@ public class WordGameGUI extends Application {
         });
         grid.add(buttonEnterRandom, 0, 5);
 
+        //labels
+        playerAmount = new Label("");
+        playerIsConnected = new Label("");
+        grid.add(playerAmount, 1, 5);
+        grid.add(playerIsConnected, 1, 6);
 
         // set root
         Group root = new Group();
@@ -137,7 +143,11 @@ public class WordGameGUI extends Application {
     //methods enter random lobby
     private void IntoRandomLobby(ActionEvent event) throws InvocationTargetException {
 
-        System.out.println("shit");
+        int pl = 0;
+
+       // get the amount of players and put them in the labels
+        playerIsConnected.setText("true");
+        playerAmount.setText(Integer.toString(pl));
 
 
     }
@@ -154,7 +164,10 @@ public class WordGameGUI extends Application {
         System.out.println(player.getName() + " " + player.getPlayerPass());
 
         if(client.loginPlayer(player)) {
-            System.out.println("yo");
+            buttonLogin.setDisable(true);
+            buttonSignup.setDisable(true);
+            buttonEnterRandom.setDisable(false);
+
         }
 
         else {

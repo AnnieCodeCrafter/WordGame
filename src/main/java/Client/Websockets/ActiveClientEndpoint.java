@@ -17,6 +17,7 @@ public class ActiveClientEndpoint {
 
     public void send(String message){
         try {
+            String s = connection.getId();
             System.out.println(String.format("Sending message %s, to %s: ",message, connection.getId()));
             connection.getBasicRemote().sendText(message);
         } catch (IOException ex) {
@@ -28,8 +29,7 @@ public class ActiveClientEndpoint {
     public void onOpen(Session session) {
         connection = session;
         System.out.println("Connected to endpoint: " + session.getBasicRemote());
-
-        myclient.consoleStart();
+        //myclient.littleStart();
     }
 
     @OnMessage

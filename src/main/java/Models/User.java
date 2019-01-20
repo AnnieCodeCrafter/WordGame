@@ -10,7 +10,7 @@ public class User {
     private String userName;
     private String pword;
     private int id;
-    private int SessionID;
+    private String SessionID;
     private int wins;
     private int points;
 
@@ -32,7 +32,7 @@ public class User {
         this.id = id;
     }
 
-    public User(String username, String password, int sessionID) {
+    public User(String username, String password, String sessionID) {
         this.userName = username;
         this.pword = password;
         this.SessionID = sessionID;
@@ -66,8 +66,12 @@ public class User {
         return this.points;
     }
 
-    public int getSessionID() {
+    public String getSessionID() {
         return SessionID;
+    }
+
+    public void setSessionID(String sessionID) {
+        this.SessionID = sessionID;
     }
 
 

@@ -14,7 +14,8 @@ public class WebsocketsCommunicatorService implements SendMessages {
     private static ServerState ServerCurrentState = null;
 
 
-    LoginSessionController sessions = new LoginSessionController(this);
+    LoginSessionManager sessions = new LoginSessionManager(this);
+
 
     public void sendMap(Map<Session, String> messages){
         System.out.println(String.format("Going to send out to %d clients",messages.size()));
@@ -41,8 +42,9 @@ public class WebsocketsCommunicatorService implements SendMessages {
     public void onConnect(Session session) {
         System.out.println("onOpen::" + session.getId());
         if (ServerCurrentState == null){
-            ServerCurrentState = new LoginSessionController(this);
+            ServerCurrentState = new LoginSessionManager(this);
         }
+        System.out.println("ping onConnect server");
         ServerCurrentState.add(session);
 
     }

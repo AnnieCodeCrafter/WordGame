@@ -5,7 +5,6 @@ public class PlayerDTO {
     private String name = "";
     private String password = "";
     private int playerID = 0;
-    private String dummy = "dummy";
 
     public PlayerDTO() {
 

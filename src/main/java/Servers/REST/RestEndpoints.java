@@ -5,17 +5,18 @@ import Client.Websockets.ActiveClientEndpoint;
 import Client.Websockets.ClientLauncher;
 import Database.PreparedStatements;
 import Models.User;
-
+import com.google.gson.Gson;
 import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
 import java.util.List;
 
 
 @Path("/authentication")
-public class restService {
+public class RestEndpoints {
 
    PreparedStatements statements = new PreparedStatements();
 
+   private Gson gson = new Gson();
 
     @GET
     @Path("/player/{playerid}")
@@ -59,8 +60,19 @@ public class restService {
     @Path("/player")
     @Consumes("application/json")
     @Produces("application/json")
-    public Response addPlayer(PlayerDTO playerRequest) {
+    public Response addPlayer(String requestBody ) {
 
+
+
+        PlayerDTO playerRequest = new PlayerDTO();
+
+        try {
+            playerRequest = gson.fromJson(requestBody, PlayerDTO.class);
+        }
+
+        catch(Exception e)  {
+
+        }
         System.out.println("[Server addPlayer]");
 
         // Check request
@@ -83,8 +95,17 @@ public class restService {
     @Path("/player/login")
     @Consumes("application/json")
     @Produces("application/json")
-    public Response loginPlayer(PlayerDTO playerRequest) {
+    public Response loginPlayer(String requestBody) {
 
+        PlayerDTO playerRequest = new PlayerDTO();
+
+        try {
+            playerRequest = gson.fromJson(requestBody, PlayerDTO.class);
+        }
+
+        catch(Exception e)  {
+
+        }
         System.out.println("Server [loginPlayer]");
 
         // Check request
