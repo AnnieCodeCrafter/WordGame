@@ -1,4 +1,4 @@
-package Client.REST;
+package PreparedStatments;
 
 import Database.PreparedStatements;
 import Models.User;

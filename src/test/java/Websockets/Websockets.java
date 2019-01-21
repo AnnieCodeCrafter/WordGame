@@ -1,4 +1,4 @@
-package Client.REST;
+package Websockets;
 
 import Client.Websockets.ActiveClient;
 import Client.Websockets.ActiveClientEndpoint;

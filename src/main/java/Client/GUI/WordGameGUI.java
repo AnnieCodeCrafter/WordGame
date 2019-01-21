@@ -180,7 +180,6 @@ public class WordGameGUI extends Application {
     }
 
     private void SignupButtonEvent(ActionEvent event) throws InvocationTargetException {
-        System.out.println("dumbass");
         String signupUserText = textFieldloginUsername.getText();
         String signupPassText = textFieldloginUsername.getText();
         User user = new User(signupUserText, signupPassText);

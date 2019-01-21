@@ -138,8 +138,16 @@ public class RestEndpoints {
     @Path("/player/signup")
     @Consumes("application/json")
     @Produces("application/json")
-    public Response playerSignup(PlayerDTO player) {
-        System.out.println("Server [loginPlayer]" + player.toString());
+    public Response playerSignup(String requestBody) {
+        PlayerDTO player = new PlayerDTO();
+
+        try {
+            player = gson.fromJson(requestBody, PlayerDTO.class);
+        }
+
+        catch(Exception e)  {
+
+        }
 
         if (player == null) {
 

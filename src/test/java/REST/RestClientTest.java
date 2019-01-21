@@ -1,5 +1,6 @@
-package Client.REST;
+package REST;
 
+import Client.REST.RestClient;
 import Models.User;
 import Servers.REST.PlayerDTO;
 import org.junit.Assert;
