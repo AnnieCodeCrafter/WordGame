@@ -23,4 +23,11 @@ public class RestClientTest {
         PlayerDTO player = user.createDTO();
         client.loginPlayer(player);
     }
+
+    @Test
+    public void testSignup() {
+        User user = new User("bro", "neverguess");
+        PlayerDTO player = user.createDTO();
+        client.signupPlayer(player);
+    }
 }
