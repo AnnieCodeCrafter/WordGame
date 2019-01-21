@@ -183,8 +183,16 @@ public class WordGameGUI extends Application {
         System.out.println("dumbass");
         String signupUserText = textFieldloginUsername.getText();
         String signupPassText = textFieldloginUsername.getText();
-
+        User user = new User(signupUserText, signupPassText);
+        PlayerDTO player = user.createDTO();
         RestClient client  = new RestClient();
+        if(client.signupPlayer(player)) {
+            System.out.println("You are now signed up");
+        }
+
+        else  {
+            System.out.println("You are not signed up.");
+        }
 
     }
 

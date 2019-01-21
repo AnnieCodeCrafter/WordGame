@@ -10,7 +10,7 @@ public class RestClientTest {
     RestClient client = new RestClient();
 
     @Test
-    public void testRest() {
+    public void getPlayer() {
         PlayerDTO player = client.getPlayer(1);
 
         Assert.assertNotNull(player);
@@ -18,7 +18,6 @@ public class RestClientTest {
 
     @Test
     public void testLogin() {
-
 
         User user =new User("tom", "mot");
         PlayerDTO player = user.createDTO();

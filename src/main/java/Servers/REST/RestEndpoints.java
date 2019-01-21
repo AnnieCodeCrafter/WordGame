@@ -1,12 +1,14 @@
 package Servers.REST;
 
 
+import Client.Websockets.ActiveClient;
 import Client.Websockets.ActiveClientEndpoint;
 import Client.Websockets.ClientLauncher;
 import Database.PreparedStatements;
 import Models.User;
 import com.google.gson.Gson;
 import javax.ws.rs.*;
+import javax.ws.rs.client.Client;
 import javax.ws.rs.core.Response;
 import java.util.List;
 
@@ -126,6 +128,8 @@ public class RestEndpoints {
 
         User user = new User(playerRequest.getName(), playerRequest.getPlayerPass());
         ClientLauncher.startClient(ActiveClientEndpoint.class);
+
+
 
         return Response.status(200).entity(RestResponseHelper.getSinglePlayerResponse(user)).build();
     }

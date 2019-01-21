@@ -55,6 +55,19 @@ public class RestClient {
         }
     }
 
+    public boolean signupPlayer(PlayerDTO playerRequest) {
+        String queryGet = "/player/signup";
+        RestResponse respone = executeQueryPost(playerRequest, queryGet);
+        PlayerDTO dtp =respone.getPlayers().get(0);
+        if(dtp != null) {
+            return true;
+        }
+
+        else {
+            return false;
+        }
+    }
+
 
 
     private RestResponse executeQueryGet(String queryGet) {
